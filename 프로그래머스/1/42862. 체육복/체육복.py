@@ -1,9 +1,10 @@
 def solution(n, lost, reserve):
-    for i in lost[:]:
+    for i in lost[:]:   # remove시 누락 발생 => 복사본 사용 ([:])
         if i in reserve:
             reserve.remove(i)
             lost.remove(i)
 
+    # 오름차순 정렬
     lost.sort()
     reserve.sort()
     
