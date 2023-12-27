@@ -1,3 +1,6 @@
+# 배열 자르기 array[startIndex, endIndex] => startIndex ~ endIndex-1
+# 오름차순으로 정렬 array.sort() => array가 정렬된 배열로 바뀌므로 다시 넣어줄 필요없음
+
 def solution(array, commands):
     answer = []
     
