@@ -1,3 +1,6 @@
+# enumerate() 인덱스와 원소로 이루어진 튜플을 만들어 줌
+# for 루프를 돌릴 때 인덱스와 원소를 동시에 얻을 수 있음
+
 def solution(answers):
     
     one = [1,2,3,4,5]
